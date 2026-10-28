@@ -15,7 +15,7 @@ print(bicycles[-1]) #prints the last item in the list
 message = "My First bicycle was a " + bicycles[0].title() + ". "
 print(message)
 
-# Activity 3.1 on pg 73 
+# Activity 3.1 on pg 73 (pg 40 on hard copy textbook)
 names = ['Salina' , 'Lubabalo' , 'Asanda' , 'Kwanele' , 'Sindiswa']
 print(names[0])
 print(names[1])
@@ -23,7 +23,7 @@ print(names[2])
 print(names[3])
 print(names[4])
 
-#Activity 3.2 on pg 73
+#Activity 3.2 on pg 73 (pg 40 on hard copy textbook)
 greetings =  "Hello, " + names[0] + "! How are you?" 
 print(greetings)
 
@@ -39,7 +39,7 @@ print(greetings4)
 greetings5 = "Hello, " + names[4] + "! How are you?"
 print(greetings5)
 
-#Activity 3.3 on pg 73
+#Activity 3.3 on pg 73 (pg 40 on hard copy textbook)
 transportation = ['Car', 'Airplane' , 'Train' , 'Bus' , 'Bicycle' , 'Skateboard' ]
 message = "I would absolutely love to learn and buy a " + transportation[-1] + "."
 print(message)
@@ -103,14 +103,14 @@ motorcycles.remove(too_expensive)
 print(motorcycles)
 print("\nA " + too_expensive.title() + " is too expensive for me.")
 
-#Activity 3.4 on pg 79 
+#Activity 3.4 on pg 79 (pg 46 on hard copy textbook)
 guest_list =['Bionelo' , 'Kamohelo' , 'Zonge' , 'Nosiphiwo' ]
 print("Hello,  " + guest_list[0] + "! I would like to invite you to my dinner. ")
 print("Hello,  " + guest_list[1] + "! I would like to invite you to my dinner. ")
 print("Hello,  " + guest_list[2] + "! I would like to invite you to my dinner.")
 print("Hello,  " + guest_list[3] + "! I would like to invite you to my dinner. ")
 
-#Activity 3.5 on pg 79
+#Activity 3.5 on pg 79 (pg 46 on hard copy textbook)
 print("Unfortunately,  " + guest_list[-1] + " won't make it to the dinner.")
 del guest_list[3] #use .del to remove 'Nosiphiwo' from the list
 print(guest_list)
@@ -130,7 +130,7 @@ print("Hello, " + guest_list[1] + "! I would like to invite you to my diner.")
 print("Hello, " + guest_list[2] + "! I would like to invite you to my diner.")
 print("Hello, " + guest_list[3] + "! I would like to invite you to my diner.")
 
-#Activity 3.6 on pg 79
+#Activity 3.6 on pg 79 (pg 46 on hard copy textbook)
 guest_list = ['Boinelo' , 'Kamohelo' , 'Zonge' , 'Liyabona']
 print("Hi, again, " + guest_list[0] + ". I have found a bigger table.")
 print("Hi, again, " + guest_list[1] + ". I have found a bigger table.")
@@ -150,7 +150,7 @@ print("Hey, " + guest_list[4] + "! You are kindly invisted to my diner at Spur, 
 print("Hey, " + guest_list[5] + "! You are kindly invisted to my diner at Spur, at 18:00pm.")
 print("Hey, " + guest_list[6] + "! You are kindly invisted to my diner at Spur, at 18:00pm.")
 
-#Activity 3.7 on pg 80
+#Activity 3.7 on pg 80 (pg 47 on hard copy textbook)
 guest_list = ['unathi' , 'Boinelo' , 'Rele' , 'Kamohelo' , 'Zonge' , 'Liyabona' , 'Lisakhanya'] #print new guest list will all guests
 print("\nI can only invite 2 guests to my dinner, the new dinner table won't arrive in time at 18:00pm.")
 new_list = guest_list.pop() #Get a new list and remove guests from old list using pop
@@ -208,7 +208,7 @@ cars = ['bmw', 'audi', 'toyota', 'subaru']
 len(cars)
 
 
-#Activity 3.8 on pg 83
+#Activity 3.8 on pg 83 (pg 50 on hard copy textbook)
 places = ['Dubai' , 'Paris' , 'Cape Town' , 'Victoria Falls' , 'Spain']
 print(places)
 
@@ -236,11 +236,11 @@ print(places)
 places.sort(reverse=True)
 print(places)
 
-#Activity 3.9 on pg 83
+#Activity 3.9 on pg 83 (pg 50 on hard copy textbook)
 guest_list = ['unathi' , 'Boinelo' , 'Rele' , 'Kamohelo' , 'Zonge' , 'Liyabona' , 'Lisakhanya'] #print new guest list will all guests
 print(len(guest_list))
 
-#Activity 3.10 on pg 83
+#Activity 3.10 on pg 83 (pg 50 on hard copy textbook)
 colors =['pink' , 'blue' , 'yellow' , 'green' , 'black'] #creating a list 
 print(colors[0]) #printing an item in a list in a specific position
 print(colors[-1]) #Index positions
