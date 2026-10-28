@@ -1,9 +1,9 @@
 #Variables
-#Activity 2.1 on pg 56
+#Activity 2.1 on pg 56 (pg 23 on hard copy textbook)
 simple_message = "I am doing the first offical activity on the 16th of Sep 2026"
 print(simple_message)
 
-#Activity 2.2 on pg 56
+#Activity 2.2 on pg 56 (pg 23 on hard copy textbook)
 simple_message=("I am learning Python programming and I am enjoying it!")
 print(simple_message)
 
@@ -49,27 +49,27 @@ print(message)
 message = 'One of Python\'s strengths is its diverse community.' #This will give an error because of the single quote in Python's unless you use \'s
 print(message)
 
-#Activity 2.3 on pg 62
+#Activity 2.3 on pg 62 (pg 29 on hard copy textbook)
 person_name = "Eric"
 personal_message = "Hello, " + person_name + " would you like to learn python today?"
 print(personal_message)
 
-#Activity 2.5 on pg 62
+#Activity 2.4 on pg 62 (pg 29 on hard copy textbook)
 person_name = "Albert Sobukwe"
 print(person_name.lower())
 print(person_name.upper())
 print(person_name.title())
 
-#Activity 2.5 on pg 62
+#Activity 2.5 on pg 62 (pg 29 on hard copy textbook)
 quote = '"A person who never made a mistake never tried anything new."'
 print ("Albert Einsten once said, "  + quote )
 
-#Activity 2.6 on pg 62
+#Activity 2.6 on pg 62 (pg 29 on hard copy textbook)
 quote = '"A person who never made a mistake never tried anything new."'
 famous_person = 'Albert Einstein'
 print(famous_person + ' once said ' + quote)
 
-#Activity 2.7 on pg 62
+#Activity 2.7 on pg 62 (pg 29 on hard copy textbook)
 person_name = "  \n\t albert \t einstein  "
 print(person_name)
 print(person_name.lstrip())
@@ -110,13 +110,13 @@ age = 23
 message = "Happy " + str(age) + "rd Birthday!" #This will convert the integer to a string
 print(message)
 
-#Activity 2.8 on pg 66
+#Activity 2.8 on pg 66 (pg 32 on hard copy textbook)
 print(5 +3)
 print(12 -4)
 print(4 *2)
 print(16/2)
 
-#Activity 2.9 on pg 66
+#Activity 2.9 on pg 66 (pg 32 on hard copy textbook)
 favorite_number = 12
 message = "My favorite  number is " + str(favorite_number) + "!"
 print(message)
