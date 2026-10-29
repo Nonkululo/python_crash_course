@@ -110,3 +110,42 @@ print(sum(digits)) #Prints the sum of all the values in the list
 squares = [value**2 for value in range(1,11)] #This line of code does the same thing as the previous example that used a for loop to generate a list of squares.
 #list, value**2, for loop, range(1,11) - all in one line
 print(squares) #Prints the list of squares
+
+#Activity 4 on page 97 (pg 64 on hard copy textbook)
+#4-3. Counting to Twenty
+counting_to_20 = list(range(1,21))
+for counting_to_20 in counting_to_20:
+  print(counting_to_20)
+
+#4-4. One Million
+numbers = list(range(1,10000001))
+for number in numbers:
+  print(number)
+
+#4-5. Summing a Million
+numbers_to_million = list(range(1, 1000001))
+print(min(numbers_to_million))
+print(max(numbers_to_million))
+print(sum(numbers_to_million))
+
+#4-6. Odd Numbers
+odd_numbers = list(range(3, 21, 2))
+for odd_number in odd_numbers:
+    print(odd_number)
+
+#4.7 Threes
+threes = list(range(3, 31, 3))
+for three in threes:
+  print(three)
+
+#Cubes
+cubes = []
+for value in range(1, 10):
+  cube = value**3
+  cubes.append(cube)
+  print(cube)
+
+
+#4-9. Cube Comprehension
+cubes = [value**3 for value in range(1, 11)]
+print(cubes)
